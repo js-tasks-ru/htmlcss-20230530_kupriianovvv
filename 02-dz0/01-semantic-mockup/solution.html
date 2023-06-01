@@ -1,4 +1,94 @@
 <!DOCTYPE html>
 <html lang="ru">
-    <!-- Ваше решение -->
+  <!-- Ваше решение -->
+  <head>
+    <meta charset="utf-8" />
+    <title>Тестовая страница</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        color: white;
+        text-align: center;
+      }
+      a {
+        color: white;
+      }
+      header {
+        min-height: 20vh;
+      }
+      h1 {
+        background-color: rgb(255, 0, 0);
+
+        font-weight: 800;
+        font-size: 4rem;
+      }
+      h2 {
+        margin-bottom: 1rem;
+      }
+      nav {
+        background-color: rgb(255, 166, 0);
+        font-size: 2.5rem;
+        padding: 1rem;
+      }
+      nav a {
+        margin-right: 1rem;
+      }
+      ul,
+      ol {
+        list-style-position: inside;
+      }
+      main {
+        background-color: rgb(5, 158, 5);
+        text-align: start;
+        padding: 1rem;
+        min-height: 70vh;
+        display: flex;
+        flex-direction: column;
+      }
+      article {
+        background-color: rgb(3, 3, 254);
+        padding: 1rem;
+        margin-bottom: 0.5rem;
+        flex: 1;
+      }
+      footer {
+        background-color: rgb(132, 0, 255);
+        font-size: 3rem;
+        min-height: 9vh;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Header</h1>
+      <nav>
+        <a href="#">Navigation 1</a>
+        <a href="#">Navigation 2</a>
+        <a href="#">Navigation 3</a>
+      </nav>
+    </header>
+    <main>
+      <article>
+        <h2>Article 1</h2>
+        <ul>
+          <li>Оригинальная трилогия</li>
+          <li>Трилогия приквелов</li>
+          <li>Трилогия сиквелов</li>
+        </ul>
+      </article>
+      <article>
+        <h2>Article 2</h2>
+        <ol>
+          <li>Эпизод IV — Новая надежда</li>
+          <li>Эпизод V — Империя наносит ответный удар</li>
+          <li>Эпизод VI — Возвращение джедая</li>
+        </ol>
+      </article>
+    </main>
+    <footer>Footer</footer>
+  </body>
 </html>
